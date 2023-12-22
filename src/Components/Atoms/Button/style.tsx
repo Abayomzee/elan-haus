@@ -1,5 +1,5 @@
+import { FlexRowAiCenter } from "Styles/Abstract/Mixins";
 import styled from "styled-components";
-import { FlexRowAiCenter } from "styles/Abstract/Mixins";
 
 const Button = styled.button`
   background-color: transparent;
@@ -18,55 +18,29 @@ export const ButtonStyle = styled(Button)`
   }
 
   &.btn {
-    color: var(--color-white);
     transition: 0.4s;
 
     /* Type */
-    &-primary {
-      border-radius: 0.5rem;
-      color: var(--color-2);
-      background-color: var(--color-primary);
-      font-size: 1.4rem;
-      font-weight: 600;
-      padding: 1rem 3.5rem;
-    }
-
-    &-naked {
-      border-radius: 0.5rem;
-      border: 1px solid var(--color-11);
-      background-color: var(--color-white);
-      color: var(--color-11);
-    }
-
-    &-display-type {
-      ${FlexRowAiCenter}
-      gap: .5rem;
-      background-color: var(--color-white);
-      border: 1px solid var(--color-19);
-      padding: 0.9rem 1.4rem;
-      border-radius: 0.4rem;
-      color: var(--color-1);
-      transition: 0.4s;
-
-      &.active {
-        border: 1px solid var(--color-20);
-        box-shadow: var(--shadow-4);
-      }
-    }
-
     &-1 {
-      border-radius: 0.5rem;
-      border: 1px solid var(--color-1);
       background-color: var(--color-white);
-      color: var(--color-1);
-      font-size: 1.4rem;
-      font-weight: 600;
-      padding: 1rem 3.5rem;
+      padding: 1rem 2.4rem;
     }
 
     &-2 {
-      border-radius: 0.5rem;
-      background-color: var(--color-11);
+      background-color: var(--color-1);
+      padding: 1rem 2.4rem;
+      border-radius: 0.8rem;
+    }
+    &-3 {
+      padding: 1rem 2.4rem;
+      border-radius: 0.8rem;
+      border: 1px solid var(--color-1);
+    }
+    &-4 {
+      background-color: var(--color-1);
+      padding: .6rem 1.7rem;
+      ${FlexRowAiCenter}
+      gap: .8rem;
     }
 
     /* Colors */

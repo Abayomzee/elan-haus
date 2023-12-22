@@ -1,8 +1,9 @@
+import { FlexRowAiCenter } from "Styles/Abstract/Mixins";
 import { css } from "styled-components";
 
 export const Typography = css`
   body {
-    font-family: "Inter", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     line-height: 1.7rem;
     font-weight: 500;
@@ -11,276 +12,286 @@ export const Typography = css`
   /* Headings */
   .h {
     &-1 {
-      font-size: 4.8rem;
-      font-weight: 600;
-      line-height: 110%;
       color: var(--color-white);
+      font-size: 10rem;
+      font-weight: 400;
+      line-height: 100%;
     }
     &-2 {
-      font-size: 1.6rem;
-      font-weight: 600;
       color: var(--color-1);
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 195%;
     }
     &-3 {
-      font-size: 1.3rem;
-      font-weight: 400;
-      color: var(--color-1);
+      color: var(--black);
+      font-size: 1.55rem;
+      font-weight: 500;
+      line-height: 177.778%;
     }
     &-4 {
-      font-size: 1.5rem;
-      font-weight: 600;
-      line-height: 140%;
-      color: var(--color-white);
+      color: var(--color-1);
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 130%;
     }
     &-5 {
-      font-size: 1.35rem;
-      font-weight: 600;
-      line-height: 130%;
       color: var(--color-1);
+      font-size: 4.6rem;
+      font-weight: 400;
+      line-height: 120%;
+      letter-spacing: -1.84px;
     }
     &-6 {
-      font-size: 1.3rem;
-      font-weight: 500;
-      color: var(--color-primary);
+      color: var(--color-2);
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 150%;
     }
     &-7 {
-      font-size: 2.1rem;
-      font-weight: 600;
       color: var(--color-white);
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 130%;
     }
     &-8 {
-      font-size: 1.6rem;
-      font-weight: 600;
-      line-height: 135%;
-      color: var(--color-1);
+      color: var(--color-8);
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 120%;
     }
     &-9 {
-      font-size: 1.4rem;
-      font-weight: 600;
-      color: var(--color-white);
+      color: var(--color-8);
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 120%;
     }
     &-10 {
-      font-size: 4.8rem;
-      font-weight: 600;
-      line-height: 7.1rem;
-      color: var(--color-white);
+      color: var(--color-black);
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 137.5%;
+      letter-spacing: 0.16px;
     }
     &-11 {
-      font-size: 1.7rem;
-      font-weight: 600;
-      line-height: 135%;
       color: var(--color-1);
+      font-size: 3.8rem;
+      font-weight: 400;
+      line-height: 120%;
     }
     &-12 {
-      font-size: 14px;
+      color: var(--color-1);
+      font-size: 1.6rem;
       font-weight: 600;
-      color: var(--color-14);
+      line-height: 120%;
     }
     &-13 {
-      font-size: 1.4rem;
-      font-weight: 400;
-      line-height: 145%;
       color: var(--color-1);
+      font-size: 2.3rem;
+      font-weight: 300;
+      line-height: 132.5%;
     }
     &-14 {
-      font-size: 1.3rem;
-      font-weight: 600;
-      color: var(--color-primary);
+      color: var(--color-1);
+      font-size: 2.4rem;
+      font-weight: 400;
+      line-height: 140%;
+      letter-spacing: -0.24px;
     }
     &-15 {
-      font-size: 1rem;
-      font-weight: 500;
       color: var(--color-1);
+      font-size: 2.5rem;
+      font-weight: 400;
+      line-height: 195%;
     }
     &-16 {
-      font-size: 1.8rem;
-      font-weight: 500;
       color: var(--color-1);
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 140%;
+      letter-spacing: -0.32px;
     }
     &-17 {
-      font-size: 1.5rem;
+      color: var(--color-1);
+      font-size: 3rem;
       font-weight: 400;
-      color: var(--color-primary);
+      line-height: 122.222%;
+      letter-spacing: 0.16px;
     }
     &-18 {
-      font-size: 1.4rem;
-      font-weight: 500;
       color: var(--color-1);
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: 0.16px;
     }
     &-19 {
-      font-size: 15px;
-      font-weight: 300;
-      color: var(--color-10);
+      color: var(--color-1);
+      font-size: 10rem;
+      font-weight: 400;
+      line-height: 100%;
+
+      &--red {
+        color: var(--color-11);
+      }
     }
     &-20 {
-      font-size: 1.7rem;
-      font-weight: 400;
-      color: var(--color-10);
+      color: var(--color-12);
+      font-size: 3.5rem;
+      font-weight: 500;
+      letter-spacing: 0.16px;
     }
     &-21 {
-      font-size: 1.4rem;
-      font-weight: 600;
-      line-height: 150%;
       color: var(--color-1);
+      font-size: 3rem;
+      font-weight: 500;
+      line-height: 120%;
     }
     &-22 {
-      font-size: 1.2rem;
-      font-weight: 600;
-      color: var(--color-10);
+      color: var(--color-1);
+      font-size: 3rem;
+      font-weight: 400;
+      line-height: 121.875%;
     }
     &-23 {
-      font-size: 1.4rem;
-      font-weight: 600;
-      line-height: 145%;
       color: var(--color-1);
-
-      &--2 {
-        color: var(--color-13);
-      }
-      &--3 {
-        color: var(--color-3);
-      }
-      &--primary {
-        color: var(--color-primary);
-      }
-    }
-
-    &-24 {
-      font-size: 1.9rem;
+      font-size: 1.6rem;
+      font-style: normal;
       font-weight: 500;
-      color: var(--color-1);
+    }
+    &-24 {
+      color: var(--color-7);
+      font-size: 1.6rem;
+      font-weight: 500;
+      // line-height: 250%;
     }
     &-25 {
-      font-size: 1.4rem;
-      font-weight: 400;
-      color: var(--color-primary);
-    }
-    &-26 {
-      font-size: 1.9rem;
-      font-weight: 400;
-      line-height: 150%;
-      color: var(--color-13);
-    }
-    &-27 {
-      font-size: 4rem;
-      font-weight: 600;
-      line-height: 130%;
-      letter-spacing: -1px;
-      color: var(--color-1);
-    }
-    &-28 {
-      font-size: 1.8rem;
-      font-weight: 600;
-      color: var(--color-1);
+      color: var(--color-black);
+      font-size: 4.8rem;
+      font-weight: 700;
     }
   }
 
   /* Body || Paragraphs */
-  .b,
   .p {
     &-1 {
-      font-size: 1.4rem;
-      font-weight: 400;
-      color: var(--color-1);
-    }
-    &-2 {
-      font-size: 1.3rem;
-      font-weight: 400;
-      color: var(--color-1);
-    }
-    &-3 {
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: 120%;
-      color: var(--color-9);
-    }
-    &-4 {
-      font-size: 1.3rem;
-      font-weight: 400;
-      color: var(--color-10);
-    }
-    &-5 {
-      font-size: 1.1rem;
-      font-weight: 500;
-      color: var(--color-10);
-    }
-    &-6 {
-      font-size: 1.4rem;
-      font-weight: 400;
-      line-height: 170%;
-      color: var(--color-1);
-    }
-    &-7 {
-      font-size: 1.4rem;
-      font-weight: 400;
-      letter-spacing: -0.21px;
-      color: var(--color-1);
-    }
-    &-8 {
-      font-size: 1.4rem;
-      font-weight: 500;
-      line-height: 140%;
-      color: var(--color-10);
-    }
-    &-9 {
-      font-size: 1.2rem;
-      color: var(--color-10);
-    }
-    &-10 {
-      font-size: 1.8rem;
-      font-weight: 400;
-      line-height: 3.05rem;
       color: var(--color-white);
-    }
-    &-11 {
-      font-size: 1.4rem;
-      font-weight: 400;
-      line-height: 140%;
-      color: var(--color-10);
-    }
-    &-12 {
-      font-size: 1.3rem;
-      font-weight: 400;
-      color: var(--color-1);
-    }
-    &-13 {
-      font-size: 1.5rem;
-      font-weight: 400;
-      color: var(--color-10);
-
-      &--bold {
-        font-weight: 600;
-      }
-    }
-    &-14 {
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: 130%;
-      color: var(--color-13);
-    }
-    &-15 {
-      font-size: 1rem;
-      font-weight: 400;
-      color: var(--color-primary);
-    }
-    &-16 {
-      font-size: 1.4rem;
-      font-weight: 400;
-      line-height: 150%;
-      color: var(--color-10);
-    }
-    &-17 {
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 150%;
-      color: var(--color-13);
-    }
-    &-18 {
-      font-size: 1.65rem;
+      font-size: 2rem;
+      font-style: normal;
       font-weight: 300;
       line-height: 150%;
+    }
+    &-2 {
+      color: var(--color-2);
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 140%;
+      letter-spacing: -0.16px;
+    }
+    &-3 {
+      color: var(--color-black);
+      font-size: 1.7rem;
+      font-weight: 400;
+      line-height: 166.667%;
+      letter-spacing: 0.16px;
+    }
+    &-4 {
+      color: var(--color-4);
+      font-size: 2.6rem;
+      font-weight: 400;
+      line-height: 140%;
+      letter-spacing: -1.04px;
+    }
+    &-5 {
+      color: var(--color-7);
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 177.778%;
+    }
+    &-6 {
+      color: var(--color-white);
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+    &-7 {
+      color: var(--color-white);
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 140%;
+      letter-spacing: -0.16px;
+    }
+    &-8 {
+      color: var(--color-8);
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 150%;
+    }
+    &-9 {
+      color: var(--color-8);
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    &-10 {
+      color: var(--color-8);
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 150%;
+      letter-spacing: -0.16px;
+    }
+    &-11 {
+      color: var(--color-10);
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    &-12 {
+      color: var(--color-10);
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 155%;
+    }
+    &-13 {
       color: var(--color-1);
-      text-align: justify;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 140%;
+      letter-spacing: -0.16px;
+    }
+    &-14 {
+      color: var(--color-1);
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    &-15 {
+      color: var(--color-1);
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 140%;
+    }
+    &-16 {
+      color: var(--color-1);
+      font-size: 18px;
+      font-weight: 300;
+    }
+    &-17 {
+      color: var(--color-1);
+      font-size: 2rem;
+      font-weight: 300;
+      line-height: 154%;
+    }
+    &-18 {
+      color: var(--color-1);
+      font-size: 2.1rem;
+      font-weight: 400;
+      line-height: 166.667%;
+    }
+    &-19 {
+      color: var(--color-black);
+      font-size: 2rem;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 200%;
     }
   }
   /* Link */
@@ -289,32 +300,56 @@ export const Typography = css`
     cursor: pointer;
 
     &-1 {
-      font-size: 1.6rem;
-      font-weight: 400;
-      color: var(--color-1);
-    }
-    &-2 {
-      border-radius: 0.5rem;
-      color: var(--color-2);
-      background-color: var(--color-primary);
-      font-size: 1.4rem;
-      font-weight: 600;
-      padding: 1rem 3.5rem;
-    }
-    &-3 {
-      border-radius: 0.5rem;
-      border: 1px solid var(--color-1);
-      background-color: var(--color-white);
-      color: var(--color-1);
-      font-size: 1.4rem;
-      font-weight: 600;
-      padding: 1rem 3.5rem;
-    }
-    &-4 {
-      color: var(--color-1);
+      color: var(--color-white);
       font-size: 1.4rem;
       font-weight: 400;
       line-height: 140%;
+    }
+    &-2 {
+      color: var(--color-1);
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+    &-3 {
+      color: var(--color-11);
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 160%;
+      ${FlexRowAiCenter}
+      gap: 1.5rem;
+    }
+    &-4 {
+      color: var(--color-14);
+      font-size: 1.7rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 133.333%;
+      text-decoration: none;
+    }
+  }
+  /* Button */
+  .b {
+    &-1 {
+      color: var(--color-1);
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 200%;
+    }
+    &-2 {
+      color: var(--color-white);
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    &-3 {
+      color: var(--color-1);
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    &-4 {
+      color: var(--color-white);
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 200%;
     }
   }
 `;

@@ -1,5 +1,5 @@
 import { css } from "styled-components";
-import { FlexRowAiCenter } from "styles/Abstract/Mixins";
+import { FlexRowAiCenter } from "Styles/Abstract/Mixins";
 
 export const Utilities = css`
   /* Margins */
@@ -172,7 +172,7 @@ export const Utilities = css`
   /* Paddings */
 
   .pr-7 {
-    padding-right: .7rem;
+    padding-right: 0.7rem;
   }
 
   /* End of Paddings */
@@ -286,17 +286,33 @@ export const Utilities = css`
   .max-width-830 {
     max-width: 83rem;
   }
+  .max-width-780 {
+    max-width: 78rem;
+  }
   .max-width-750 {
     max-width: 75rem;
+  }
+  .max-width-730 {
+    max-width: 73rem;
   }
   .max-width-720 {
     max-width: 72rem;
   }
   .max-width-700 {
     max-width: 70rem;
+    max-width: 69.2rem;
+  }
+  .max-width-692 {
+    max-width: 69.2rem;
   }
   .max-width-690 {
     max-width: 69rem;
+  }
+  .max-width-685 {
+    max-width: 68.5rem;
+  }
+  .max-width-600 {
+    max-width: 60rem;
   }
   .max-width-590 {
     max-width: 59rem;
@@ -310,8 +326,17 @@ export const Utilities = css`
   .max-width-510 {
     max-width: 51rem;
   }
+  .max-width-500 {
+    max-width: 50rem;
+  }
+  .max-width-490 {
+    max-width: 49rem;
+  }
   .max-width-480 {
     max-width: 48rem;
+  }
+  .max-width-470 {
+    max-width: 47rem;
   }
   .max-width-450 {
     max-width: 45rem;
@@ -319,8 +344,21 @@ export const Utilities = css`
   .max-width-430 {
     max-width: 43rem;
   }
-  .max-width-220px {
+  .max-width-410 {
+    max-width: 41rem;
+  }
+  .max-width-380 {
+    max-width: 38rem;
+  }
+  .max-width-362 {
+    max-width: 36.2rem;
+  }
+  .max-width-220 {
     max-width: 22rem;
+  }
+  .max-width-128 {
+    max-width: 12.8rem;
+    background-color: red;
   }
   .max-width-120 {
     max-width: 12rem;
