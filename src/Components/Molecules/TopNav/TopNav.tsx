@@ -23,7 +23,7 @@ const TopNav: React.FC<TopNavProps> = (props) => {
           <Link to="/work" className="l l-1">
             Work
           </Link>
-          <Link to="/" className="l l-1">
+          <Link to="/about" className="l l-1">
             About
           </Link>
           <Link to="/" className="l l-1">
