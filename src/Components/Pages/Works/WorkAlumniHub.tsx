@@ -52,6 +52,9 @@ const WorkAlumniHub: React.FC<Props> = () => {
                   <Typography as="h4" className="h-24 mb-10">
                     Product Design
                   </Typography>
+                  <Typography as="h4" className="h-24 mb-10">
+                    App Development
+                  </Typography>
                 </div>
               </div>
             </div>
