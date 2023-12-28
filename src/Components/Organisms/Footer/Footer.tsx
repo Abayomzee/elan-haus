@@ -1,17 +1,20 @@
-import React from 'react';
-import { Container, Wrapper } from './style'
-import Typography from 'Components/Atoms/Typography';
-import { Button } from 'Components/Atoms/Button';
-import { FacebookIcon, InstagramIcon, LinkedInIcon } from 'Components/Atoms/SvgIcons';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Container, Wrapper } from "./style";
+import Typography from "Components/Atoms/Typography";
+import { Button } from "Components/Atoms/Button";
+import {
+  FacebookIcon,
+  InstagramIcon,
+  LinkedInIcon,
+} from "Components/Atoms/SvgIcons";
+import { Link } from "react-router-dom";
 
 // Type defination
 interface Props {}
 
 // Component
-const Footer:React.FC<Props> = () => {
-
-// Data to display
+const Footer: React.FC<Props> = () => {
+  // Data to display
   return (
     <Wrapper>
       <Container>
@@ -99,6 +102,6 @@ const Footer:React.FC<Props> = () => {
       </Container>
     </Wrapper>
   );
-}
+};
 
 export default Footer;

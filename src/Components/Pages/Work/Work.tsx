@@ -111,7 +111,7 @@ const Work: React.FC<Props> = () => {
           </div>
           <div>
             <div className="right image-container">
-              <img src="/assets/images/work-alimni.png" alt="" />
+              <img src="/assets/images/work-femi.png" alt="" />
             </div>
           </div>
         </WorkBox>
