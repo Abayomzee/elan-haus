@@ -43,7 +43,7 @@ export const Header = styled.header`
 
 export const HeaderContainer = styled(Center)`
   ${FlexRowJcCenterAiCenter}
-  gap: 8rem;
+  gap: 30rem;
   padding-block: 10rem;
 
   .header-img {

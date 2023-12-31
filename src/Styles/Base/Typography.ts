@@ -169,6 +169,32 @@ export const Typography = css`
       font-size: 4.8rem;
       font-weight: 700;
     }
+    &-26 {
+      color: var(--color-11);
+      font-size: 3rem;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: 0.16px;
+    }
+    &-27 {
+      color: var(--color-1);
+      font-size: 5rem;
+      font-weight: 400;
+      line-height: 120%;
+    }
+    &-28 {
+      color: var(--color-1);
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 177.778%;
+    }
+    &-29 {
+      color: var(--color-1);
+      font-size: 2rem;
+      font-weight: 300;
+      line-height: 108.333%;
+      letter-spacing: 0.16px;
+    }
   }
 
   /* Body || Paragraphs */
@@ -293,6 +319,33 @@ export const Typography = css`
       font-weight: 400;
       line-height: 200%;
     }
+    &-20 {
+      color: var(--color-12);
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 140%;
+    }
+    &-21 {
+      color: var(--color-1);
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 130%;
+      letter-spacing: 0.16px;
+    }
+    &-22 {
+      color: var(--color-12);
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 140%;
+      letter-spacing: -0.16px;
+    }
+    &-23 {
+      color: var(--color-12);
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 144.444%;
+      letter-spacing: 0.16px;
+    }
   }
   /* Link */
   .l {
@@ -325,6 +378,19 @@ export const Typography = css`
       font-weight: 400;
       line-height: 133.333%;
       text-decoration: none;
+    }
+    &-5 {
+      color: var(--color-15);
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 100%;
+      padding: 1.5rem 3rem;
+      transition: 0.4s;
+
+      &:hover {
+        background-color: var(--color-1);
+        color: var(--color-white);
+      }
     }
   }
   /* Button */

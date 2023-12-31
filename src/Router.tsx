@@ -14,6 +14,7 @@ import {
   WorkLahdaa,
   WorkTeleSchool,
 } from "Components/Pages/Works";
+import { Services } from "Components/Pages/Services";
 
 const Router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +27,11 @@ const Router = createBrowserRouter(
       <Route
         path="about"
         element={<About />}
+        errorElement={<h2>Can't find this page</h2>}
+      />
+      <Route
+        path="services"
+        element={<Services />}
         errorElement={<h2>Can't find this page</h2>}
       />
       <Route
