@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Container,
   Details,
@@ -22,6 +22,8 @@ import { Button } from "Components/Atoms/Button";
 import { StarsIcon } from "Components/Atoms/SvgIcons";
 import { Footer } from "Components/Organisms/Footer";
 import { Brands } from "Components/Molecules/Brands";
+import { AnimatePresence } from "framer-motion";
+import { CenterModal } from "Components/Molecules/Modals";
 
 // Type defination
 interface Props {}
@@ -59,6 +61,8 @@ const testimonials = [
 
 // Component
 const Home: React.FC<Props> = () => {
+  // state
+  const [showPopUp, setShowPopUp] = useState(false);
   // Data to display
   return (
     <>
@@ -180,11 +184,7 @@ const Home: React.FC<Props> = () => {
               </Figures>
             </div>
             <div>
-              <ImageContainer
-                onClick={() =>
-                  window.open("https://youtu.be/vs-sib12f9I", "_blank")
-                }
-              >
+              <ImageContainer onClick={() => setShowPopUp(true)}>
                 <img src="assets/images/creative-img.png" alt="" />
                 <img
                   src="assets/images/play-icon.png"
@@ -314,6 +314,12 @@ const Home: React.FC<Props> = () => {
       </Section>
 
       <Footer />
+
+      <AnimatePresence>
+        {showPopUp && (
+          <CenterModal handleCloseModal={() => setShowPopUp(false)} />
+        )}
+      </AnimatePresence>
     </>
   );
 };
