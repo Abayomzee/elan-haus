@@ -40,10 +40,10 @@ const TopNav: React.FC<TopNavProps> = (props) => {
           >
             Insight
           </Link>
-          <Link to="/" className="l l-1">
+          <Link to="#" className="l l-1">
             Get a quote
           </Link>
-          <Link to="/" className="l l-1">
+          <Link to="#" className="l l-1">
             Contact
           </Link>
         </Links>

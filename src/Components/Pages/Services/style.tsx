@@ -1,6 +1,8 @@
+import { responsive } from "Styles/Abstract/Breakpoints";
 import {
   FlexColumn,
   FlexRowAiCenter,
+  FlexRowJcBetween,
   FlexRowJcBetweenAiCenter,
   FlexRowJcCenterAiCenter,
   ImageDefault,
@@ -23,6 +25,8 @@ export const Section = styled.section`
         padding-bottom: 0;
         border-bottom: none;
       }
+
+      ${responsive("sm", "padding-block: 4rem;")}
     }
     &__collaborate {
       max-height: 41.4rem;
@@ -58,14 +62,21 @@ export const Container = styled(Center)`
     &__sub-nav {
       ${FlexRowJcCenterAiCenter}
       gap: 2rem;
+
+      ${responsive("sm", "flex-wrap: wrap; gap: 0;")}
     }
     &__service-types {
-      ${FlexRowJcBetweenAiCenter}
+      ${FlexRowJcBetween}
       gap: 7rem;
 
+      ${responsive("sm", "flex-wrap: wrap; gap: 0;")}
+
       .left {
+        flex-shrink: 0;
         ${FlexColumn}
         gap: 1.5rem;
+
+        ${responsive("sm", "display: none;")}
       }
     }
   }
@@ -74,7 +85,11 @@ export const Container = styled(Center)`
 export const ServiceContent = styled.div`
   .description {
     ${FlexRowJcBetweenAiCenter}
+    gap: 3rem;
     margin-top: 3rem;
+
+    ${responsive("sm", "flex-wrap: wrap;")}
+
     &__left {
     }
     &__right {
@@ -95,6 +110,8 @@ export const ServiceContent = styled.div`
     gap: 4rem;
     margin-top: 2rem;
     margin-bottom: 3.5rem;
+
+    ${responsive("sm", "flex-wrap: wrap; gap: 2rem;")}
   }
 
   .img-2-holders {
@@ -114,6 +131,8 @@ export const ServiceContent = styled.div`
     ${FlexRowJcBetweenAiCenter}
     gap: 8rem;
     margin-top: 5rem;
+
+    ${responsive("sm", "flex-wrap: wrap; gap: 2rem;")}
   }
 
   .tools-img {
@@ -130,6 +149,8 @@ export const ServiceContent = styled.div`
     img {
       ${ImageDefault}
     }
+
+    ${responsive("sm", "display: none;")}
   }
 
   .strategy-img-holder {
@@ -170,10 +191,16 @@ export const Strategies = styled.div`
     justify-content: space-around;
     /* gap: 5rem; */
 
+    ${responsive(
+      "sm",
+      "padding: 2rem; flex-basis: 60%; flex-direction: column; gap: 5rem"
+    )}
+
     & > * {
       padding-inline: 3rem;
       &:not(:first-child) {
         border-left: 1px solid #6a63b66f;
+        ${responsive("sm", " border-left: none;")}
       }
     }
   }
