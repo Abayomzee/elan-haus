@@ -53,16 +53,17 @@ const TopNav: React.FC<TopNavProps> = (props) => {
             </Link>
           </Links>
 
-          <Button
-            className="burger"
-            onClick={() => setShowMobileNav(!showMobileNav)}
-          >
+          <Button className="burger" onClick={() => setShowMobileNav(true)}>
             <BurgerIcon width={22} height={17} />
           </Button>
         </Container>
       </Wrapper>
 
-      <AnimatePresence>{showMobileNav && <MobileNav />}</AnimatePresence>
+      <AnimatePresence>
+        {showMobileNav && (
+          <MobileNav closeNav={() => setShowMobileNav(false)} />
+        )}
+      </AnimatePresence>
     </>
   );
 };
