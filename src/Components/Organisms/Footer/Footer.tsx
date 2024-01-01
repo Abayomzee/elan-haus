@@ -28,9 +28,21 @@ const Footer: React.FC<Props> = () => {
               <Button className="btn btn-3 b-3">Browse Services</Button>
             </div>
             <div className="socials">
-              <FacebookIcon />
-              <LinkedInIcon />
-              <InstagramIcon />
+              <Link
+                to="https://www.facebook.com/profile.php?id=61555223154071"
+                target="_blank"
+              >
+                <FacebookIcon />
+              </Link>
+              <Link
+                to="https://www.linkedin.com/company/elan-haus"
+                target="_blank"
+              >
+                <LinkedInIcon />
+              </Link>
+              <Link to="https://www.instagram.com/elanhaus/" target="_blank">
+                <InstagramIcon />
+              </Link>
             </div>
           </div>
           <div className="top__right">
@@ -75,9 +87,9 @@ const Footer: React.FC<Props> = () => {
               <Link to="/" className="l l-2">
                 Privacy Policy
               </Link>
-              <Link to="#" className="l l-2">
+              {/* <Link to="#" className="l l-2">
                 Partnership
-              </Link>
+              </Link> */}
               <a href="mailto:contact@elanhaus.com" className="l l-2">
                 Partnership
               </a>
