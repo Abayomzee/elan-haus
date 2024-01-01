@@ -26,6 +26,37 @@ import { Brands } from "Components/Molecules/Brands";
 // Type defination
 interface Props {}
 
+const testimonials = [
+  {
+    review:
+      "The team worked closely with us to bring our concept to life in a beautifully designed, user-friendly app” ",
+    name: "Oluwafemi Niyi",
+    position: "Founder - Femi Love Yourself",
+    img: "/assets/images/user-2.png",
+  },
+  {
+    review:
+      "The Elan Haus team not only helped us build an amazing digital platform to connect alumni communities, but also provided invaluable advice on product growth.",
+    name: "Akintoye Olorode",
+    position: "CTO, AlumniHub",
+    img: "/assets/images/user-1.png",
+  },
+  {
+    review:
+      "As founders we had limited technical experience. The team provided critical guidance on everything from product design to go-to-market strategy, allowing us to launch and scale our online learning startup.",
+    name: "Lanre Oke",
+    position: "CEO, TeleSchool",
+    img: "/assets/images/user-3.png",
+  },
+  {
+    review:
+      "Despite having a small budget, they worked diligently to create a beautiful landing page for our business. They kept our needs front and center and delivered beyond our expectations",
+    name: "Emmanuel",
+    position: "Principal Partner, Pro Ecce",
+    img: "/assets/images/user-4.png",
+  },
+];
+
 // Component
 const Home: React.FC<Props> = () => {
   // Data to display
@@ -241,24 +272,23 @@ const Home: React.FC<Props> = () => {
       <Section className="section__testi">
         <Container className="container__testi">
           <TestiCards>
-            {Array(...[1, 2, 3, 4]).map(() => (
-              <TestiCardWrapper>
+            {testimonials.map((testi, index) => (
+              <TestiCardWrapper key={index}>
                 <TestiCard>
                   <StarsIcon />
                   <Typography as="p" className="p-8 mt-15">
-                    The team worked closely with us to bring our concept to life
-                    in a beautifully designed, user-friendly app”
+                    {testi.review}
                   </Typography>
                 </TestiCard>
                 <TestiUser>
                   <div className="user">
-                    <img src="/assets/images/user-1.png" alt="" />
+                    <img src={testi.img} alt="" />
                   </div>
                   <Typography as="h6" className="h-9 mt-10">
-                    Oluwafemi Niyi
+                    {testi.name}
                   </Typography>
                   <Typography as="p" className="p-9 mt-5">
-                    Founder - Femi Love Yourself
+                    {testi.position}
                   </Typography>
                 </TestiUser>
               </TestiCardWrapper>

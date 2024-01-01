@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { responsive } from "Styles/Abstract/Breakpoints";
 import {
   FlexRowAiCenter,
   FlexRowJcBetweenAiCenter,
@@ -18,4 +19,6 @@ export const Container = styled(Center)`
 export const Links = styled.div`
   ${FlexRowAiCenter}
   gap: 4rem;
+
+  ${responsive("sm", "display: none")}
 `;

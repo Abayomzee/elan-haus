@@ -1,3 +1,4 @@
+import { responsive } from "Styles/Abstract/Breakpoints";
 import {
   FlexColumn,
   FlexRow,
@@ -19,10 +20,14 @@ export const Container = styled(Center)`
     padding-bottom: 7rem;
     border-bottom: 1px solid var(--color-9);
 
+    ${responsive("sm", "flex-direction: column; gap: 4rem;")}
+
     .ctas {
       ${FlexRow}
       gap: 1.5rem;
       margin-top: 4rem;
+
+      ${responsive("xsm", "flex-direction: column;")}
     }
     .socials {
       ${FlexRow}
@@ -33,6 +38,8 @@ export const Container = styled(Center)`
     &__right {
       ${FlexRow}
       gap: 8rem;
+
+      ${responsive("xsm", "flex-direction: column; gap: 4rem;")}
 
       & > * {
         ${FlexColumn}
@@ -45,5 +52,7 @@ export const Container = styled(Center)`
     ${FlexRowJcBetweenAiCenter}
     gap: 2rem;
     padding-top: 3rem;
+
+    ${responsive("sm", "flex-direction: column; align-items: flex-start")}
   }
 `;

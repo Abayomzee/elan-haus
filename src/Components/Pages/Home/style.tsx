@@ -1,3 +1,4 @@
+import { responsive } from "Styles/Abstract/Breakpoints";
 import {
   FlexColumn,
   FlexColumnJcCenterAiCenter,
@@ -29,11 +30,14 @@ export const Section = styled.section`
 
       padding-top: 11rem;
       padding-bottom: 40rem;
+      ${responsive("xmd", "padding-block: 1rem;")}
     }
     &__testi {
       background-color: var(--color-white);
       margin-top: 18rem;
       padding-block: 10rem;
+
+      ${responsive("xmd", "margin-top: 1rem;")}
     }
     &__process {
       background-image: url("/assets/images/process-section-bg.png");
@@ -43,6 +47,8 @@ export const Section = styled.section`
 
       background-color: var(--color-3);
       padding-block: 10rem;
+
+      ${responsive("md", "background-image: none;")}
     }
   }
 `;
@@ -59,16 +65,16 @@ export const Container = styled(Center)`
     &__projects {
       .img-container {
         &--1 {
-          max-width: 616px;
-          max-height: 425px;
+          max-width: 61.6rem;
+          max-height: 42.5rem;
         }
         &--2 {
-          width: 599px;
-          height: 587px;
+          max-width: 59.9rem;
+          max-height: 58.7rem;
         }
         &--3 {
-          width: 100%;
-          height: 436px;
+          max-width: 100%;
+          max-height: 436px;
         }
         img {
           ${ImageDefault}
@@ -76,7 +82,7 @@ export const Container = styled(Center)`
       }
     }
     &__services {
-      position: relative;
+      /* position: relative; */
     }
     &__footer {
     }
@@ -95,8 +101,8 @@ export const Header = styled.header`
 // Dream it section
 export const DreamImageContainer = styled.div`
   margin-top: 5rem;
-  width: 1162px;
-  height: 511.113px;
+  max-width: 1162px;
+  max-height: 511.113px;
 
   img {
     ${ImageDefault}
@@ -110,12 +116,17 @@ export const ServicesGrid = styled.div`
   justify-content: space-between;
   grid-gap: 5rem;
   margin-top: 8rem;
+
+  ${responsive("sm", "grid-template-columns: repeat(2, 1fr);")}
+  ${responsive("xsm", "grid-template-columns: repeat(1, 1fr);")}
 `;
 
 export const Details = styled.div`
   ${FlexRowAiCenter}
   gap: 7rem;
   margin-top: 8rem;
+
+  ${responsive("md", "flex-wrap: wrap; justify-content: center")}
 `;
 
 export const Figures = styled.div`
@@ -156,6 +167,8 @@ export const ImageContainer = styled.div`
 export const ProjectsTop = styled.div`
   ${FlexRowJcBetween};
   gap: 7rem;
+
+  ${responsive("xsm", "flex-wrap: wrap")}
 `;
 
 // Services section
@@ -165,13 +178,17 @@ export const ServicesContainer = styled(Center)`
   background-color: var(--color-1);
   border-top: 9px solid #f08e5a90;
 
+  ${responsive("xmd", "position: relative")}
+
   & > * {
     flex-basis: 50%;
   }
 
   .img-container {
-    /* width: 654px; */
-    height: 556px;
+    max-width: 65.4rem;
+    max-height: 55.6rem;
+
+    ${responsive("xmd", "height: auto;")}
 
     img {
       ${ImageDefault}
@@ -182,7 +199,11 @@ export const ServicesContainer = styled(Center)`
     padding: 8rem 6rem;
     ${FlexColumn}
     justify-content: center;
+
+    ${responsive("sm", " padding: 3rem 1rem;")}
   }
+
+  ${responsive("xmd", "flex-direction: column")}
 `;
 
 // Testimonial section
@@ -190,6 +211,9 @@ export const TestiCards = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
+
+  ${responsive("xmd", "grid-template-columns: repeat(2, 1fr);")}
+  ${responsive("xsm", "grid-template-columns: repeat(1, 1fr);")}
 `;
 
 export const TestiCardWrapper = styled.div``;
@@ -204,8 +228,8 @@ export const TestiUser = styled.div`
   transform: translateY(-3.2rem);
 
   .user {
-    width: 6.4rem;
-    height: 6.4rem;
+    max-width: 6.4rem;
+    max-height: 6.4rem;
     border-radius: 50%;
     overflow: hidden;
 
@@ -216,4 +240,8 @@ export const TestiUser = styled.div`
 `;
 
 // Process section
-export const ProcessContainer = styled(CenterProcess)``;
+export const ProcessContainer = styled(CenterProcess)`
+  & > * {
+    ${responsive("md", "text-align: center; margin-inline: auto;")}
+  }
+`;
