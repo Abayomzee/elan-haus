@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 import { responsive } from "Styles/Abstract/Breakpoints";
 import {
-  FlexColumn,
   FlexColumnJcCenterAiCenter,
   FlexJcEndAiCenter,
   FlexRowAiCenter,
