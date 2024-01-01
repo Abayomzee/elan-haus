@@ -1,6 +1,8 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 import { responsive } from "Styles/Abstract/Breakpoints";
 import {
+  FlexJcEndAiCenter,
   FlexRowAiCenter,
   FlexRowJcBetweenAiCenter,
 } from "Styles/Abstract/Mixins";
@@ -26,4 +28,21 @@ export const Links = styled.div`
   gap: 4rem;
 
   ${responsive("sm", "display: none")}
+`;
+
+export const MobileNavStyle = styled(motion.div)`
+  background-color: var(--color-white);
+  position: fixed;
+  z-index: 20;
+  width: 100vw;
+  height: 95vh;
+  height: 75svh;
+  bottom: 0;
+  border-radius: 2.4rem 2.4rem 0 0;
+  border: 1px solid var(--color-17);
+  overflow-y: auto;
+
+  .top {
+    ${FlexJcEndAiCenter}
+  }
 `;
