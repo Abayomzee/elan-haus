@@ -14,6 +14,11 @@ export const Wrapper = styled.nav`
 export const Container = styled(Center)`
   ${FlexRowJcBetweenAiCenter}
   gap: 1rem;
+
+  .burger {
+    display: none;
+    ${responsive("sm", "display: block")}
+  }
 `;
 
 export const Links = styled.div`

@@ -1,3 +1,4 @@
+import { responsive } from "Styles/Abstract/Breakpoints";
 import {
   FlexColumn,
   FlexRow,
@@ -46,6 +47,16 @@ export const HeaderContainer = styled(Center)`
   gap: 30rem;
   padding-block: 10rem;
 
+  ${responsive("md", "gap: 10rem;")}
+  ${responsive("sm", "flex-direction: column")}
+
+  &>* {
+    h3,
+    p {
+      text-align: center;
+    }
+  }
+
   .header-img {
     max-width: 40rem;
     max-height: 40rem;
@@ -64,10 +75,15 @@ export const SectionWhatWeDo = styled.section`
     ${FlexRow}
     gap: 8rem;
 
+    ${responsive(
+      "md",
+      "flex-direction: column; padding-bottom: 5rem;  gap: 3rem;"
+    )}
+
     &__left {
-      width: 748px;
-      height: 811px;
-      flex-shrink: 0;
+      max-width: 748px;
+      max-height: 811px;
+      /* flex-shrink: 0; */
 
       img {
         ${ImageDefault}
@@ -80,6 +96,9 @@ export const SectionWhatWeDo = styled.section`
       background-repeat: no-repeat;
       background-position: bottom right;
       background-size: 50.0133rem 54.7rem;
+
+      ${responsive("lg", "background-size: 20.0133rem 24.7rem; padding: 3rem;")}
+      ${responsive("md", "background-image: none;")}
     }
   }
 `;
@@ -89,15 +108,21 @@ export const Clients = styled.section`
   grid-template-columns: repeat(2, 1fr);
   margin-top: 7rem;
 
+  ${responsive("xsm", "grid-template-columns: repeat(1, 1fr);")}
+
   .texts {
     background-color: var(--color-3);
     ${FlexColumn}
     justify-content: flex-end;
     padding: 5rem;
+
+    ${responsive("xsm", "padding: 3rem;")}
   }
 
   .img {
-    height: 33.7rem;
+    max-height: 33.7rem;
+
+    ${responsive("xsm", "display: none;")}
 
     img {
       ${ImageDefault}
@@ -109,9 +134,13 @@ export const ServicesContainer = styled(Center)`
   ${FlexRowJcBetween}
   gap: 3rem;
 
+  ${responsive("lg", "flex-direction: column; gap: 1rem")}
+
   .left__img {
-    width: 189.731px;
-    height: 209px;
+    max-width: 189.731px;
+    max-height: 209px;
+
+    ${responsive("lg", "display: none")}
 
     img {
       ${ImageDefault}
@@ -121,6 +150,8 @@ export const ServicesContainer = styled(Center)`
   .right {
     ${FlexRow}
     gap:7rem;
+
+    ${responsive("sm", "flex-direction: column; gap:5rem;")}
 
     & > * {
       ${FlexColumn}

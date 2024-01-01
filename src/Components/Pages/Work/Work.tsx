@@ -147,9 +147,11 @@ const Work: React.FC<Props> = () => {
               className="h-21 mt-20 mb-40 max-width-500"
               text="A website we own and built from the ground up"
             />
-            <Button className="btn btn-4 b-4">
-              View Project <ArrowRightIcon />
-            </Button>
+            <Link to="/">
+              <Button className="btn btn-4 b-4">
+                View Project <ArrowRightIcon />
+              </Button>
+            </Link>
           </div>
           <div>
             <div className="right image-container">

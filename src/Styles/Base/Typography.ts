@@ -131,6 +131,7 @@ export const Typography = css`
     &-19 {
       color: var(--color-1);
       font-size: 10rem;
+      font-size: clamp(3.5rem, 5vw, 10rem);
       font-weight: 400;
       line-height: 100%;
 
@@ -141,12 +142,14 @@ export const Typography = css`
     &-20 {
       color: var(--color-12);
       font-size: 3.5rem;
+      font-size: clamp(2rem, 5vw, 3.5rem);
       font-weight: 500;
       letter-spacing: 0.16px;
     }
     &-21 {
       color: var(--color-1);
       font-size: 3rem;
+      font-size: clamp(1.8rem, 5vw, 3rem);
       font-weight: 500;
       line-height: 120%;
     }

@@ -5,6 +5,8 @@ import { Container, Links, Wrapper } from "./style";
 import { TopNavProps } from "./types";
 import { Logo } from "Components/Atoms/Logo";
 import { Link } from "react-router-dom";
+import { Button } from "Components/Atoms/Button";
+import { BurgerIcon } from "Components/Atoms/SvgIcons";
 
 // Component
 const TopNav: React.FC<TopNavProps> = (props) => {
@@ -45,6 +47,10 @@ const TopNav: React.FC<TopNavProps> = (props) => {
             Contact
           </Link>
         </Links>
+
+        <Button className="burger">
+          <BurgerIcon width={22} height={17} />
+        </Button>
       </Container>
     </Wrapper>
   );
