@@ -29,7 +29,11 @@ const TopNav: React.FC<TopNavProps> = (props) => {
           <Link to="/services" className="l l-1">
             Service
           </Link>
-          <Link to="/" className="l l-1">
+          <Link
+            to="https://elanhausblog.framer.website/"
+            target="_blank"
+            className="l l-1"
+          >
             Insight
           </Link>
           <Link to="/" className="l l-1">

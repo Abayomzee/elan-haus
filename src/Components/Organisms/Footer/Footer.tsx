@@ -75,9 +75,12 @@ const Footer: React.FC<Props> = () => {
               <Link to="/" className="l l-2">
                 Privacy Policy
               </Link>
-              <Link to="/" className="l l-2">
+              <Link to="#" className="l l-2">
                 Partnership
               </Link>
+              <a href="mailto:contact@elanhaus.com" className="l l-2">
+                Partnership
+              </a>
             </div>
           </div>
         </div>
