@@ -195,12 +195,17 @@ export const Strategies = styled.div`
       "sm",
       "padding: 2rem; flex-basis: 60%; flex-direction: column; gap: 5rem"
     )}
+    ${responsive(
+      "xsm",
+      "padding: 2rem; flex-basis: 95%; flex-direction: column; gap: 5rem"
+    )}
 
     & > * {
       padding-inline: 3rem;
+      ${responsive("sm", "padding-inline: 0;")}
       &:not(:first-child) {
         border-left: 1px solid #6a63b66f;
-        ${responsive("sm", " border-left: none;")}
+        ${responsive("sm", " border-left: none; padding-inline: 1rem;")}
       }
     }
   }
