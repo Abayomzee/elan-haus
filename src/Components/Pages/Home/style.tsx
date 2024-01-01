@@ -136,9 +136,19 @@ export const Figures = styled.div`
 export const ImageContainer = styled.div`
   max-width: 70.4rem;
   max-height: 50.3rem;
+  position: relative;
+  cursor: pointer;
 
   img {
     ${ImageDefault}
+  }
+
+  .icon {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    height: 7rem;
+    width: 7rem;
   }
 `;
 

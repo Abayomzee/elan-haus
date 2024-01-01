@@ -149,8 +149,17 @@ const Home: React.FC<Props> = () => {
               </Figures>
             </div>
             <div>
-              <ImageContainer>
+              <ImageContainer
+                onClick={() =>
+                  window.open("https://youtu.be/vs-sib12f9I", "_blank")
+                }
+              >
                 <img src="assets/images/creative-img.png" alt="" />
+                <img
+                  src="assets/images/play-icon.png"
+                  alt=""
+                  className="icon"
+                />
               </ImageContainer>
             </div>
           </Details>

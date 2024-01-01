@@ -18,7 +18,9 @@ const TopNav: React.FC<TopNavProps> = (props) => {
       }}
     >
       <Container>
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
         <Links>
           <Link to="/work" className="l l-1">
             Work

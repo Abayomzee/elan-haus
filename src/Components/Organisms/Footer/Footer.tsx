@@ -68,7 +68,11 @@ const Footer: React.FC<Props> = () => {
               <Link to="/" className="l l-2">
                 Get a quote
               </Link>
-              <Link to="/" className="l l-2">
+              <Link
+                to="https://elanhausblog.framer.website/"
+                target="_blank"
+                className="l l-2"
+              >
                 Insight
               </Link>
               <Link to="/" className="l l-2">
