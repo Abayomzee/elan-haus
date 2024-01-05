@@ -34,25 +34,25 @@ const Services: React.FC<Props> = () => {
 
       <Section className="section__sub-nav">
         <Container className="container__sub-nav">
-          <Link to="/" className="l l-5">
+          <a href="/services#design" className="l l-5">
             Design
-          </Link>
-          <Link to="/" className="l l-5">
+          </a>
+          <a href="/services#development" className="l l-5">
             Development
-          </Link>
-          <Link to="/" className="l l-5">
+          </a>
+          <a href="/services#approach" className="l l-5">
             Our Approach
-          </Link>
-          <Link to="/" className="l l-5">
+          </a>
+          <a href="/services#strategy" className="l l-5">
             Strategy{" "}
-          </Link>
+          </a>
           <Link to="/" className="l l-5">
             Book a Call
           </Link>
         </Container>
       </Section>
 
-      <Section className="section__services">
+      <Section className="section__services" id="design">
         <Container>
           <Typography as="h4" className="h-26" text="Design" />
           <ServiceContent>
@@ -109,7 +109,7 @@ const Services: React.FC<Props> = () => {
           </ServiceContent>
         </Container>
       </Section>
-      <Section className="section__services">
+      <Section className="section__services" id="development">
         <Container>
           <Typography as="h4" className="h-26" text="Development" />
           <ServiceContent>
@@ -144,13 +144,16 @@ const Services: React.FC<Props> = () => {
         </Container>
       </Section>
 
-      <Section className="section__approach">
+      <Section className="section__approach" id="approach">
         <ContainerBig>
           <img src="/assets/images/approach.png" alt="" />
         </ContainerBig>
       </Section>
 
-      <Section className="section__services section__services--no">
+      <Section
+        className="section__services section__services--no"
+        id="strategy"
+      >
         <Container>
           <Typography as="h4" className="h-26" text="Strategy " />
           <ServiceContent>
