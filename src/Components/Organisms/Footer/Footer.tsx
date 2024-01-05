@@ -24,8 +24,16 @@ const Footer: React.FC<Props> = () => {
               Connect Now to Grow Your Startup
             </Typography>
             <div className="ctas">
-              <Button className="btn btn-2 b-2">Start Now</Button>
-              <Button className="btn btn-3 b-3">Browse Services</Button>
+              <Link
+                to="https://share-eu1.hsforms.com/11XlSGNasRHKHqtV_mRpXRA2dnjzx"
+                target="_blank"
+                className="l l-2"
+              >
+                <Button className="btn btn-2 b-2">Start Now</Button>
+              </Link>
+              <Link to="/services" className="l l-2">
+                <Button className="btn btn-3 b-3">Browse Services</Button>
+              </Link>
             </div>
             <div className="socials">
               <Link
@@ -65,7 +73,11 @@ const Footer: React.FC<Props> = () => {
             </div>
             <div>
               <Typography as="h5" className="h-12 max-width-430" text="More" />
-              <Link to="/" className="l l-2">
+              <Link
+                to="https://share-eu1.hsforms.com/11XlSGNasRHKHqtV_mRpXRA2dnjzx"
+                target="_blank"
+                className="l l-2"
+              >
                 Get a quote
               </Link>
               <Link
@@ -75,9 +87,12 @@ const Footer: React.FC<Props> = () => {
               >
                 Insight
               </Link>
-              <Link to="/" className="l l-2">
+              {/* <Link to="/" className="l l-2">
                 Contact
-              </Link>
+              </Link> */}
+              <a href="mailto:contact@elanhaus.com" className="l l-2">
+                Contact
+              </a>
             </div>
             <div>
               <Typography
