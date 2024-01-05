@@ -45,7 +45,10 @@ const TopNav: React.FC<TopNavProps> = (props) => {
             >
               Insight
             </Link>
-            <Link to="#" className="l l-1">
+            <Link
+              to="https://share-eu1.hsforms.com/11XlSGNasRHKHqtV_mRpXRA2dnjzx"
+              className="l l-1"
+            >
               Get a quote
             </Link>
             <Link to="#" className="l l-1">

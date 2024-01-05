@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 
 import React, { Suspense } from "react";
+import { Loader } from "Components/Atoms/Loader";
 
 const Home = React.lazy(() => import("Components/Pages/Home/Home"));
 const About = React.lazy(() => import("Components/Pages/About/About"));
@@ -30,7 +31,7 @@ const Router = createBrowserRouter(
       <Route
         path="/"
         element={
-          <Suspense fallback={"Lodaing..."}>
+          <Suspense fallback={<Loader />}>
             <Home />
           </Suspense>
         }
@@ -39,7 +40,7 @@ const Router = createBrowserRouter(
       <Route
         path="about"
         element={
-          <Suspense fallback={"Lodaing..."}>
+          <Suspense fallback={<Loader />}>
             <About />
           </Suspense>
         }
@@ -48,7 +49,7 @@ const Router = createBrowserRouter(
       <Route
         path="services"
         element={
-          <Suspense fallback={"Lodaing..."}>
+          <Suspense fallback={<Loader />}>
             <Services />
           </Suspense>
         }
@@ -57,7 +58,7 @@ const Router = createBrowserRouter(
       <Route
         path="work"
         element={
-          <Suspense fallback={"Lodaing..."}>
+          <Suspense fallback={<Loader />}>
             <Work />
           </Suspense>
         }
@@ -67,7 +68,7 @@ const Router = createBrowserRouter(
       <Route
         path="work/lahdaa"
         element={
-          <Suspense fallback={"Lodaing..."}>
+          <Suspense fallback={<Loader />}>
             <WorkLahdaa />
           </Suspense>
         }
@@ -77,7 +78,7 @@ const Router = createBrowserRouter(
       <Route
         path="work/alumnihub"
         element={
-          <Suspense fallback={"Lodaing..."}>
+          <Suspense fallback={<Loader />}>
             <WorkAlumniHub />
           </Suspense>
         }
@@ -87,7 +88,7 @@ const Router = createBrowserRouter(
       <Route
         path="work/teleschool"
         element={
-          <Suspense fallback={"Lodaing..."}>
+          <Suspense fallback={<Loader />}>
             <WorkTeleSchool />
           </Suspense>
         }
@@ -97,7 +98,7 @@ const Router = createBrowserRouter(
       <Route
         path="work/fudtraka"
         element={
-          <Suspense fallback={"Lodaing..."}>
+          <Suspense fallback={<Loader />}>
             <WorkFudtraka />
           </Suspense>
         }
@@ -106,7 +107,7 @@ const Router = createBrowserRouter(
       <Route
         path="work/femi"
         element={
-          <Suspense fallback={"Lodaing..."}>
+          <Suspense fallback={<Loader />}>
             <WorkFemi />
           </Suspense>
         }

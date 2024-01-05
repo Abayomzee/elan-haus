@@ -24,6 +24,7 @@ import { Footer } from "Components/Organisms/Footer";
 import { Brands } from "Components/Molecules/Brands";
 import { AnimatePresence } from "framer-motion";
 import { CenterModal } from "Components/Molecules/Modals";
+import { Link } from "react-router-dom";
 
 // Type defination
 interface Props {}
@@ -77,7 +78,12 @@ const Home: React.FC<Props> = () => {
             companies, successfully leverage technology to grow their business.
           </Typography>
 
-          <Button className="btn btn-1 b-1 mt-40">Work With Us</Button>
+          <Link
+            to="https://share-eu1.hsforms.com/11XlSGNasRHKHqtV_mRpXRA2dnjzx"
+            className="l l-1"
+          >
+            <Button className="btn btn-1 b-1 mt-40">Get a quote</Button>
+          </Link>
         </Container>
       </Header>
 

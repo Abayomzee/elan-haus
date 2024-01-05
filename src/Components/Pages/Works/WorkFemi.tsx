@@ -69,7 +69,11 @@ const WorkFemi: React.FC<Props> = () => {
                 individual needs.
               </Typography>
 
-              <Link to="#" className="l-4">
+              <Link
+                to="https://www.tryfemi.com/"
+                target="_blank"
+                className="l-4"
+              >
                 Visit Site
               </Link>
             </div>
