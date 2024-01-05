@@ -36,7 +36,7 @@ const TopNav: React.FC<TopNavProps> = (props) => {
               About
             </Link>
             <Link to="/services" className="l l-1">
-              Service
+              Services
             </Link>
             <Link
               to="https://elanhausblog.framer.website/"
@@ -47,13 +47,22 @@ const TopNav: React.FC<TopNavProps> = (props) => {
             </Link>
             <Link
               to="https://share-eu1.hsforms.com/11XlSGNasRHKHqtV_mRpXRA2dnjzx"
+              target="_blank"
               className="l l-1"
             >
               Get a quote
             </Link>
-            <Link to="#" className="l l-1">
+            {/* <Link to="" className="l l-1">
               Contact
-            </Link>
+            </Link> */}
+            <a
+              href="mailto:contact@elanhaus.com"
+              target="_blank"
+              rel="noreferrer"
+              className="l l-1"
+            >
+              Contact
+            </a>
           </Links>
 
           <Button className="burger" onClick={() => setShowMobileNav(true)}>

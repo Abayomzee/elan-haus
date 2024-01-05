@@ -80,6 +80,7 @@ const Home: React.FC<Props> = () => {
 
           <Link
             to="https://share-eu1.hsforms.com/11XlSGNasRHKHqtV_mRpXRA2dnjzx"
+            target="_blank"
             className="l l-1"
           >
             <Button className="btn btn-1 b-1 mt-40">Get a quote</Button>

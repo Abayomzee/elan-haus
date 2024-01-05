@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Container,
+  ContainerBig,
   Header,
   Section,
   ServiceContent,
@@ -144,7 +145,9 @@ const Services: React.FC<Props> = () => {
       </Section>
 
       <Section className="section__approach">
-        <img src="/assets/images/approach.png" alt="" />
+        <ContainerBig>
+          <img src="/assets/images/approach.png" alt="" />
+        </ContainerBig>
       </Section>
 
       <Section className="section__services section__services--no">

@@ -53,13 +53,13 @@ const Footer: React.FC<Props> = () => {
                 text="Company"
               />
 
-              <Link to="/" className="l l-2">
+              <Link to="/work" className="l l-2">
                 Work
               </Link>
-              <Link to="/" className="l l-2">
+              <Link to="/about" className="l l-2">
                 About
               </Link>
-              <Link to="/" className="l l-2">
+              <Link to="/services" className="l l-2">
                 Services
               </Link>
             </div>

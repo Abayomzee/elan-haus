@@ -1,3 +1,4 @@
+import { responsive } from "Styles/Abstract/Breakpoints";
 import {
   FlexRow,
   FlexRowJcBetween,
@@ -35,6 +36,8 @@ export const Header = styled.header`
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5rem;
     margin-top: 6rem;
+
+    ${responsive("sm", "grid-template-columns: repeat(1, 1fr)")}
   }
 
   .bottom__left__item-layout {
@@ -54,8 +57,8 @@ export const Header = styled.header`
 export const Container = styled(Center)`
   &.container {
     &__top-image {
-     height: 60rem;
-     max-height: 60rem;
+      height: 60rem;
+      max-height: 60rem;
       img {
         ${ImageDefault}
       }
@@ -64,12 +67,16 @@ export const Container = styled(Center)`
     &__overview {
       ${FlexRowJcBetween}
       gap: 5rem;
+
+      ${responsive("sm", "flex-wrap: wrap")}
     }
 
     &__photo-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 0.3rem;
+
+      ${responsive("sm", "grid-template-columns: repeat(1, 1fr)")}
     }
   }
 `;
