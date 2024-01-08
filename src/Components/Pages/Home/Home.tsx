@@ -245,7 +245,7 @@ const Home: React.FC<Props> = () => {
               <img src="assets/images/project-3.png" alt="" />
             </div>
 
-            <Typography as="h6" className="h-6 mt-10">
+            <Typography as="h6" className="h-6 mt-30">
               Alumni Hub
             </Typography>
             <Typography as="p" className="p-5 max-width-510">
@@ -274,7 +274,9 @@ const Home: React.FC<Props> = () => {
                 successful products.
               </Typography>
               <div>
+                <Link to='/services'>
                 <Button className="btn btn-1 mt-40">See Services</Button>
+                </Link>
               </div>
             </div>
           </ServicesContainer>

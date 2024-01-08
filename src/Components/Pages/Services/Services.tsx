@@ -46,7 +46,7 @@ const Services: React.FC<Props> = () => {
           <a href="/services#strategy" className="l l-5">
             Strategy{" "}
           </a>
-          <Link to="/" className="l l-5">
+          <Link to="https://cal.com/teminiyi" target="_blank" className="l l-5">
             Book a Call
           </Link>
         </Container>

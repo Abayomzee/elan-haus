@@ -125,7 +125,7 @@ const Footer: React.FC<Props> = () => {
             <Typography
               as="p"
               className="p-12"
-              text="@2023 All Right Reseved"
+              text="@2024 All Right Reseved"
             />
           </div>
           <Typography as="p" className="p-11 max-width-580">
