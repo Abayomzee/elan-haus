@@ -1,5 +1,11 @@
 import React from "react";
-import { Container, Header, PhotoGridBox, Section } from "./style";
+import {
+  Container,
+  ContainerBig,
+  Header,
+  PhotoGridBox,
+  Section,
+} from "./style";
 import { TopNav } from "Components/Molecules/TopNav";
 import Typography from "Components/Atoms/Typography";
 import { Link } from "react-router-dom";
@@ -119,7 +125,9 @@ const WorkTeleSchool: React.FC<Props> = () => {
       </Section>
 
       <Section className="section__above-footer">
-        <img src="/assets/images/teleschool-footer-top-image.png" alt="" />
+        <ContainerBig>
+          <img src="/assets/images/teleschool-footer-top-image.png" alt="" />
+        </ContainerBig>
       </Section>
 
       <Footer />

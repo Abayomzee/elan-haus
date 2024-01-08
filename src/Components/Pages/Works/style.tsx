@@ -4,7 +4,7 @@ import {
   FlexRowJcBetween,
   ImageDefault,
 } from "Styles/Abstract/Mixins";
-import { Center } from "Styles/layouts/Center";
+import { Center, CenterExtended } from "Styles/layouts/Center";
 import styled from "styled-components";
 
 export const Section = styled.section`
@@ -19,11 +19,6 @@ export const Section = styled.section`
       padding-block: 10rem;
     }
     &__above-footer {
-      max-height: 63.7rem;
-
-      img {
-        ${ImageDefault}
-      }
     }
   }
 `;
@@ -79,6 +74,15 @@ export const Container = styled(Center)`
       ${responsive("sm", "grid-template-columns: repeat(1, 1fr)")}
     }
   }
+`;
+
+export const ContainerBig = styled(CenterExtended)`
+  max-height: 63.7rem;
+
+  img {
+    ${ImageDefault}
+  }
+
 `;
 
 export const PhotoGridBox = styled.div`
