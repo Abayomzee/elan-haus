@@ -219,11 +219,11 @@ const Home: React.FC<Props> = () => {
                 Ideation & Customer Discovery, Consulting, Logo Design, Web
                 Design,
               </Typography>
-              <Typography as="h4" className="h-30 mt-60 flex-row-ai-center">
+              <Link to="/work" className=" l h-30 mt-60 flex-row-ai-center">
                 <>
                   See More Projects <ExploreBtnIcon />{" "}
                 </>
-              </Typography>
+              </Link>
             </div>
             <div>
               <div className="img-container img-container--2">
