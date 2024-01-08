@@ -2,6 +2,7 @@ import React from "react";
 import {
   Clients,
   Container,
+  ContainerBig,
   Header,
   HeaderContainer,
   Section,
@@ -201,7 +202,9 @@ const About: React.FC<Props> = () => {
       </Section>
 
       <Section className="section__collaborate">
-        <img src="/assets/images/collaborate-bg.png" alt="" />
+        <ContainerBig>
+          <img src="/assets/images/collaborate-bg.png" alt="" />
+        </ContainerBig>
       </Section>
 
       <Footer />

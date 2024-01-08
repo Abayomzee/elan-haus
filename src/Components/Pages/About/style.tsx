@@ -6,7 +6,7 @@ import {
   FlexRowJcCenterAiCenter,
   ImageDefault,
 } from "Styles/Abstract/Mixins";
-import { Center } from "Styles/layouts/Center";
+import { Center, CenterExtended } from "Styles/layouts/Center";
 import styled from "styled-components";
 
 export const Section = styled.section`
@@ -19,12 +19,6 @@ export const Section = styled.section`
       padding-bottom: 9rem;
     }
     &__collaborate {
-      max-height: 41.4rem;
-      width: 100%;
-
-      img {
-        ${ImageDefault}
-      }
     }
   }
 `;
@@ -34,6 +28,14 @@ export const Container = styled(Center)`
     &__header {
       padding-block: 9rem;
     }
+  }
+`;
+
+export const ContainerBig = styled(CenterExtended)`
+  max-height: 41.4rem;
+
+  img {
+    ${ImageDefault}
   }
 `;
 
