@@ -19,7 +19,7 @@ import {
 import { TopNav } from "Components/Molecules/TopNav";
 import Typography from "Components/Atoms/Typography";
 import { Button } from "Components/Atoms/Button";
-import { StarsIcon } from "Components/Atoms/SvgIcons";
+import { ExploreBtnIcon, StarsIcon } from "Components/Atoms/SvgIcons";
 import { Footer } from "Components/Organisms/Footer";
 import { Brands } from "Components/Molecules/Brands";
 import { AnimatePresence } from "framer-motion";
@@ -218,6 +218,11 @@ const Home: React.FC<Props> = () => {
               <Typography as="p" className="p-5">
                 Ideation & Customer Discovery, Consulting, Logo Design, Web
                 Design,
+              </Typography>
+              <Typography as="h4" className="p-5">
+                <>
+                  See More Projects <ExploreBtnIcon />{" "}
+                </>
               </Typography>
             </div>
             <div>

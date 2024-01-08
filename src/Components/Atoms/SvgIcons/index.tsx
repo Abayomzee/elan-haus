@@ -7,3 +7,4 @@ export { ReactComponent as WorksIcon } from "./Svgs/works-icon.svg";
 export { ReactComponent as ArrowRightIcon } from "./Svgs/arrow-right-con.svg";
 export { ReactComponent as BurgerIcon } from "./Svgs/burger-icon.svg";
 export { ReactComponent as CloseIcon } from "./Svgs/close-icon.svg";
+export { ReactComponent as ExploreBtnIcon } from "./Svgs/explore-btn-icon.svg";
