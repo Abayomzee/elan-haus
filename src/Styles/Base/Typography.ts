@@ -205,6 +205,15 @@ export const Typography = css`
       line-height: 108.333%;
       letter-spacing: 0.16px;
     }
+    &-30 {
+      color: var(--color-1);
+      font-size: 4rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 165%;
+
+      align-self: flex-end;
+    }
   }
 
   /* Body || Paragraphs */
