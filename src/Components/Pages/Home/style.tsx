@@ -11,6 +11,7 @@ import { Center, CenterProcess } from "Styles/layouts/Center";
 import styled from "styled-components";
 
 export const Wrapper = styled.div``;
+
 export const Section = styled.section`
   &.section {
     &__dream {
@@ -35,7 +36,8 @@ export const Section = styled.section`
     &__testi {
       background-color: var(--color-white);
       margin-top: 18rem;
-      padding-block: 10rem;
+      padding-top: 10rem;
+      padding-bottom: 20rem;
 
       ${responsive("xmd", "margin-top: 1rem;")}
     }
@@ -216,16 +218,26 @@ export const TestiCards = styled.div`
   ${responsive("xsm", "grid-template-columns: repeat(1, 1fr);")}
 `;
 
-export const TestiCardWrapper = styled.div``;
-
-export const TestiCard = styled.div`
+export const TestiCardWrapper = styled.div`
   background-color: var(--color-3);
   padding: 4.5rem 3rem;
   padding-bottom: 6.4rem;
+
+  position: relative;
 `;
+
+export const TestiCard = styled.div`
+  /* background-color: var(--color-3);
+  padding: 4.5rem 3rem;
+  padding-bottom: 6.4rem; */
+`;
+
 export const TestiUser = styled.div`
-  padding-inline: 2.5rem;
-  transform: translateY(-3.2rem);
+  /* padding-inline: 2.5rem; */
+  /* transform: translateY(3.2rem); */
+
+  position: absolute;
+  bottom: -8rem;
 
   .user {
     max-width: 6.4rem;
