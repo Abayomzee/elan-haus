@@ -49,7 +49,11 @@ const About: React.FC<Props> = () => {
             You dream it, we work together to conceptualise it. We design,
             develop and deliver. We pride ourselves for making your ideas real
           </Typography>
-          <Link to="/" className="l l-3">
+          <Link
+            to="https://share-eu1.hsforms.com/11XlSGNasRHKHqtV_mRpXRA2dnjzx"
+            target="_blank"
+            className="l l-3"
+          >
             Start A Project <RedArrowIcon height={20} width={20} />
           </Link>
         </Container>
