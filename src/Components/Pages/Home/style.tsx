@@ -214,7 +214,7 @@ export const TestiCards = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
 
-  ${responsive("xmd", "grid-template-columns: repeat(2, 1fr);")}
+  ${responsive("xmd", "grid-template-columns: repeat(2, 1fr); grid-row-gap: 11rem;")}
   ${responsive("xsm", "grid-template-columns: repeat(1, 1fr);")}
 `;
 
