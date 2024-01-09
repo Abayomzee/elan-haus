@@ -28,14 +28,6 @@ export const Section = styled.section`
 
       ${responsive("sm", "padding-block: 4rem;")}
     }
-    &__collaborate {
-      max-height: 41.4rem;
-      width: 100%;
-
-      img {
-        ${ImageDefault}
-      }
-    }
 
     &__service-types {
       padding-top: 1rem;
@@ -49,6 +41,10 @@ export const ContainerBig = styled(CenterExtended)`
 
   img {
     ${ImageDefault}
+  }
+
+  &.collabo {
+    max-height: 41.4rem;
   }
 `;
 

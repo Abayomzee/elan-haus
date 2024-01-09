@@ -21,6 +21,7 @@ export const Typography = css`
     &-2 {
       color: var(--color-1);
       font-size: 3.2rem;
+      font-size: clamp(2rem, 4vw, 3.2rem);
       font-weight: 400;
       line-height: 195%;
     }

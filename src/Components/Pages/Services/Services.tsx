@@ -252,7 +252,9 @@ const Services: React.FC<Props> = () => {
       </Section>
 
       <Section className="section__collaborate">
-        <img src="/assets/images/collaborate-bg.png" alt="" />
+        <ContainerBig className="collabo">
+          <img src="/assets/images/collaborate-bg.png" alt="" />
+        </ContainerBig>
       </Section>
       <Footer />
     </>
