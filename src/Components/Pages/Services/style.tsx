@@ -36,8 +36,10 @@ export const Section = styled.section`
 
     &__approach {
       background-color: #08061f;
-      padding-top: 10rem;
+      padding-top: 5rem;
       padding-bottom: 4rem;
+
+      overflow: hidden;
     }
   }
 `;
@@ -52,6 +54,19 @@ export const ContainerBig = styled(CenterExtended)`
 
   &.collabo {
     max-height: 41.4rem;
+  }
+
+  &.approach {
+    position: relative;
+    .marquee {
+      position: absolute;
+      z-index: 1;
+    }
+    img {
+      z-index: 200;
+      position: relative;
+      margin-top: 10rem;
+    }
   }
 `;
 

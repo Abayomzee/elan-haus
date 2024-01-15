@@ -217,15 +217,10 @@ export const Typography = css`
     }
     &-31 {
       color: #252434;
-      color: white;
       font-family: Helvetica;
       font-size: 190px;
       font-style: normal;
       font-weight: 700;
-
-      position: absolute;
-      top: 0;
-      left: 0;
     }
   }
 

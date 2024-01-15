@@ -11,6 +11,7 @@ import { TopNav } from "Components/Molecules/TopNav";
 import Typography from "Components/Atoms/Typography";
 import { Link } from "react-router-dom";
 import { Footer } from "Components/Organisms/Footer";
+import Marquee from "react-fast-marquee";
 
 // Type defination
 interface Props {}
@@ -145,10 +146,16 @@ const Services: React.FC<Props> = () => {
       </Section>
 
       <Section className="section__approach" id="approach">
-        <ContainerBig>
-          <Typography as="h2" className="h-31">
-            Our Approach is collaborative
-          </Typography>
+        <ContainerBig className="approach">
+          <Marquee
+            className="marquee"
+            direction="left"
+            style={{ width: "240%", height: "15rem" }}
+          >
+            <Typography as="h2" className="h-31">
+              Our Approach is collaborative
+            </Typography>
+          </Marquee>
           <img src="/assets/images/approach-2.png" alt="" />
         </ContainerBig>
       </Section>
