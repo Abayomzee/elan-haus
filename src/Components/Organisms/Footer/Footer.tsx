@@ -98,7 +98,7 @@ const Footer: React.FC<Props> = () => {
               <Typography
                 as="h5"
                 className="h-12 max-width-430"
-                text="Policy"
+                text="Partnership"
               />
               {/* <Link to="/" className="l l-2">
                 Term of Service
