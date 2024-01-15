@@ -157,7 +157,7 @@ const Services: React.FC<Props> = () => {
               Our Approach is collaborative
             </Typography>
           </Marquee>
-          <img src="/assets/images/approach-2.png" alt="" />
+          <img src="/assets/images/approach.png" alt="" />
         </ContainerBig>
       </Section>
 
