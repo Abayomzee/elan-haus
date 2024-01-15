@@ -1,6 +1,7 @@
 import { responsive } from "Styles/Abstract/Breakpoints";
 import {
   FlexRow,
+  FlexRowAiCenter,
   FlexRowJcBetween,
   ImageDefault,
 } from "Styles/Abstract/Mixins";
@@ -50,6 +51,19 @@ export const Header = styled.header`
 `;
 
 export const Container = styled(Center)`
+  .go-back-btn {
+    ${FlexRowAiCenter}
+    gap: 1rem;
+
+    svg {
+      transform: rotate(180deg);
+    }
+
+    path {
+      fill: black;
+    }
+  }
+
   &.container {
     &__top-image {
       height: 60rem;
@@ -82,7 +96,6 @@ export const ContainerBig = styled(CenterExtended)`
   img {
     ${ImageDefault}
   }
-
 `;
 
 export const PhotoGridBox = styled.div`

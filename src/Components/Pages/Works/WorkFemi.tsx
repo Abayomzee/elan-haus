@@ -8,14 +8,19 @@ import {
 } from "./style";
 import { TopNav } from "Components/Molecules/TopNav";
 import Typography from "Components/Atoms/Typography";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Footer } from "Components/Organisms/Footer";
+import { Button } from "Components/Atoms/Button";
+import { ArrowRightIcon } from "Components/Atoms/SvgIcons";
 
 // Type defination
 interface Props {}
 
 // Component
 const WorkFemi: React.FC<Props> = () => {
+  // Hooks
+  const navigate = useNavigate();
+
   // Data to display
   return (
     <>
@@ -23,6 +28,11 @@ const WorkFemi: React.FC<Props> = () => {
 
       <Header>
         <Container className="container__header">
+          <Button onClick={() => navigate(-1)} className="go-back-btn mb-20">
+            <ArrowRightIcon width={20} height={20} />
+            Go Back
+          </Button>
+
           <Typography as="h4" className="h-22 max-width-410">
             Redefining nutrition and self-care for Africans globally
           </Typography>

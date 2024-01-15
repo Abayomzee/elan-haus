@@ -21,7 +21,7 @@ const Footer: React.FC<Props> = () => {
         <div className="top">
           <div>
             <Typography as="h3" className="h-11 max-width-410">
-              Connect Now to Grow Your Startup
+              Connect Now to Grow Your Business
             </Typography>
             <div className="ctas">
               <Link
