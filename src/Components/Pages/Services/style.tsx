@@ -37,7 +37,7 @@ export const Section = styled.section`
     &__approach {
       background-color: #08061f;
       padding-top: 2rem;
-      padding-bottom: 4rem;
+      padding-bottom: 15rem;
       overflow: hidden;
     }
   }
