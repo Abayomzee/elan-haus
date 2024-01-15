@@ -36,9 +36,8 @@ export const Section = styled.section`
 
     &__approach {
       background-color: #08061f;
-      padding-top: 5rem;
+      padding-top: 2rem;
       padding-bottom: 4rem;
-
       overflow: hidden;
     }
   }
@@ -61,11 +60,17 @@ export const ContainerBig = styled(CenterExtended)`
     .marquee {
       position: absolute;
       z-index: 1;
+      width: 240%;
+      height: 21rem;
+
+      ${responsive("xsm", "height: 15rem")}
+      ${responsive("xxsm", "height: 10rem")}
     }
     img {
       z-index: 200;
       position: relative;
-      margin-top: 10rem;
+      margin-top: 15rem;
+      /* ${responsive("xsm", "height: 11rem")} */
     }
   }
 `;
