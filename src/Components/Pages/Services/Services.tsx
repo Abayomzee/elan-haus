@@ -147,7 +147,7 @@ const Services: React.FC<Props> = () => {
 
       <Section className="section__approach" id="approach">
         <ContainerBig className="approach">
-          <Marquee className="marquee" direction="left">
+          <Marquee speed={120} pauseOnHover className="marquee" direction="left">
             <Typography as="h2" className="h-31">
               Our Approach is collaborative
             </Typography>

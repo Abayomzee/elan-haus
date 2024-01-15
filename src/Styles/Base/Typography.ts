@@ -219,7 +219,7 @@ export const Typography = css`
       color: #252434;
       font-family: Helvetica;
       font-size: 19rem;
-      font-size: clamp(5rem, 6vw, 19rem);
+      font-size: clamp(5rem, 17vw, 19rem);
       font-style: normal;
       font-weight: 700;
     }
