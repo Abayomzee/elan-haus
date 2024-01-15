@@ -146,6 +146,9 @@ const Services: React.FC<Props> = () => {
 
       <Section className="section__approach" id="approach">
         <ContainerBig>
+          <Typography as="h2" className="h-31">
+            Our Approach is collaborative
+          </Typography>
           <img src="/assets/images/approach-2.png" alt="" />
         </ContainerBig>
       </Section>

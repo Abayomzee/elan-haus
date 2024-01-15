@@ -44,6 +44,7 @@ export const Section = styled.section`
 
 export const ContainerBig = styled(CenterExtended)`
   max-height: 77.3rem;
+  position: relative;
 
   img {
     ${ImageDefault}
