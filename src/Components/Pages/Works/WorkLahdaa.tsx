@@ -84,7 +84,7 @@ const WorkLahdaa: React.FC<Props> = () => {
                 learning that they can apply directly to their businesses.
               </Typography>
 
-              <Link to="#" className="l-4">
+              <Link to="https://lahdaa.com/" className="l-4">
                 Visit Site
               </Link>
             </div>

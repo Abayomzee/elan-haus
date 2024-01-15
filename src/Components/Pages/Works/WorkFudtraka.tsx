@@ -8,7 +8,7 @@ import {
 } from "./style";
 import { TopNav } from "Components/Molecules/TopNav";
 import Typography from "Components/Atoms/Typography";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Footer } from "Components/Organisms/Footer";
 import { Button } from "Components/Atoms/Button";
 import { ArrowRightIcon } from "Components/Atoms/SvgIcons";
@@ -83,9 +83,9 @@ const WorkFudtraka: React.FC<Props> = () => {
                 chefs and restaurants anywhere they are.
               </Typography>
 
-              <Link to="#" className="l-4">
+              {/* <Link to="#" className="l-4">
                 Visit Site
-              </Link>
+              </Link> */}
             </div>
           </div>
         </Container>
