@@ -100,12 +100,12 @@ const Footer: React.FC<Props> = () => {
                 className="h-12 max-width-430"
                 text="Policy"
               />
-              <Link to="/" className="l l-2">
+              {/* <Link to="/" className="l l-2">
                 Term of Service
               </Link>
               <Link to="/" className="l l-2">
                 Privacy Policy
-              </Link>
+              </Link> */}
               {/* <Link to="#" className="l l-2">
                 Partnership
               </Link> */}
