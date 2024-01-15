@@ -146,7 +146,7 @@ const Services: React.FC<Props> = () => {
 
       <Section className="section__approach" id="approach">
         <ContainerBig>
-          <img src="/assets/images/approach.png" alt="" />
+          <img src="/assets/images/approach-2.png" alt="" />
         </ContainerBig>
       </Section>
 

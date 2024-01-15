@@ -33,6 +33,12 @@ export const Section = styled.section`
       padding-top: 1rem;
       padding-bottom: 10rem;
     }
+
+    &__approach {
+      background-color: #08061f;
+      padding-top: 10rem;
+      padding-bottom: 4rem;
+    }
   }
 `;
 
