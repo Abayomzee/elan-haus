@@ -94,7 +94,7 @@ export const Container = styled(Center)`
 // Header
 export const Header = styled.header`
   /* height: 60rem; */
-  background-image: url("/assets/images/hero-bg.png");
+  background-image: url("https://res.cloudinary.com/devsolute-technologies/image/upload/v1706349129/Elan%20haus/hero-bg_tavbbc.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
