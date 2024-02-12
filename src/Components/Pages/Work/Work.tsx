@@ -45,7 +45,10 @@ const Work: React.FC<Props> = () => {
           </div>
           <div>
             <div className="right image-container">
-              <img src="/assets/images/work-lahdaa.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706255279/Elan%20haus/work-lahdaa_yrgct3.png"
+                alt=""
+              />
             </div>
           </div>
         </WorkBox>
@@ -89,7 +92,10 @@ const Work: React.FC<Props> = () => {
           </div>
           <div>
             <div className="right image-container">
-              <img src="/assets/images/work-alimni.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706280510/Elan%20haus/work-alimni_k8qoa3.png"
+                alt=""
+              />
             </div>
           </div>
         </WorkBox>
@@ -111,7 +117,10 @@ const Work: React.FC<Props> = () => {
           </div>
           <div>
             <div className="right image-container">
-              <img src="/assets/images/work-femi.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706255218/Elan%20haus/work-femi_hgesej.png"
+                alt=""
+              />
             </div>
           </div>
         </WorkBox>
@@ -133,7 +142,10 @@ const Work: React.FC<Props> = () => {
           </div>
           <div>
             <div className="right image-container">
-              <img src="/assets/images/work-fudtraka.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706255315/Elan%20haus/work-fudtraka_nvydth.png"
+                alt=""
+              />
             </div>
           </div>
         </WorkBox>
@@ -155,7 +167,10 @@ const Work: React.FC<Props> = () => {
           </div>
           <div>
             <div className="right image-container">
-              <img src="/assets/images/work-elan.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706255008/Elan%20haus/work-elan_kfwxue.png"
+                alt=""
+              />
             </div>
           </div>
         </WorkBox>

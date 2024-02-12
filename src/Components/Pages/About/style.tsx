@@ -94,7 +94,7 @@ export const SectionWhatWeDo = styled.section`
 
     &__right {
       flex-grow: 1;
-      background-image: url("/assets/images/what-we-do-img-2.png");
+      background-image: url("https://res.cloudinary.com/devsolute-technologies/image/upload/v1706280508/Elan%20haus/what-we-do-img-2_hedzcq.png");
       background-repeat: no-repeat;
       background-position: bottom right;
       background-size: 50.0133rem 54.7rem;

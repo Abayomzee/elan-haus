@@ -37,7 +37,10 @@ const About: React.FC<Props> = () => {
           </div>
 
           <div className="header-img">
-            <img src="/assets/images/about-hero-img.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707737662/Elan%20haus/about-hero-img_bccc2p.png"
+              alt=""
+            />
           </div>
         </HeaderContainer>
       </Header>
@@ -60,7 +63,10 @@ const About: React.FC<Props> = () => {
 
         <div className="bottom">
           <div className="bottom__left">
-            <img src="/assets/images/what-we-do-img-1.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706280563/Elan%20haus/what-we-do-img-1_qa5wk9.png"
+              alt=""
+            />
           </div>
           <div className="bottom__right">
             <Typography as="h5" className="h-14">
