@@ -236,7 +236,10 @@ const Home: React.FC<Props> = () => {
             </div>
             <div>
               <div className="img-container img-container--2">
-                <img src="assets/images/project-2.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707736163/Elan%20haus/project-2_zosyv6.png"
+                  alt=""
+                />
               </div>
 
               <Typography as="h6" className="h-6 mt-10">
