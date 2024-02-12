@@ -97,7 +97,10 @@ const Home: React.FC<Props> = () => {
           </Typography>
 
           <DreamImageContainer className="dream-image-container">
-            <img src="/assets/images/dream-section-img.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1705942513/Elan%20haus/dream-section-img_xh6mul.png"
+              alt=""
+            />
           </DreamImageContainer>
 
           <ServicesGrid>
@@ -192,7 +195,10 @@ const Home: React.FC<Props> = () => {
             </div>
             <div>
               <ImageContainer onClick={() => setShowPopUp(true)}>
-                <img src="assets/images/creative-img.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707735939/Elan%20haus/creative-img_aghlf2.png"
+                  alt=""
+                />
                 <img
                   src="assets/images/play-icon.png"
                   alt=""
@@ -209,7 +215,10 @@ const Home: React.FC<Props> = () => {
           <ProjectsTop>
             <div>
               <div className="img-container img-container--1">
-                <img src="assets/images/project-1.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707736051/Elan%20haus/project-1_zawr7u.png"
+                  alt=""
+                />
               </div>
 
               <Typography as="h6" className="h-6 mt-10">
@@ -274,8 +283,8 @@ const Home: React.FC<Props> = () => {
                 successful products.
               </Typography>
               <div>
-                <Link to='/services'>
-                <Button className="btn btn-1 mt-40">See Services</Button>
+                <Link to="/services">
+                  <Button className="btn btn-1 mt-40">See Services</Button>
                 </Link>
               </div>
             </div>
