@@ -25,7 +25,7 @@ export const Section = styled.section`
       padding-block: 9rem;
     }
     &__services {
-      background-image: url("/assets/images/services-bg.png");
+      background-image: url("https://res.cloudinary.com/devsolute-technologies/image/upload/v1707736754/Elan%20haus/services-bg_use2c0.png");
       background-repeat: no-repeat;
       background-size: cover;
 
@@ -42,7 +42,7 @@ export const Section = styled.section`
       ${responsive("xmd", "margin-top: 1rem;")}
     }
     &__process {
-      background-image: url("/assets/images/process-section-bg.png");
+      background-image: url("https://res.cloudinary.com/devsolute-technologies/image/upload/v1707736977/Elan%20haus/process-section-bg_clrfns.png");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: top right;

@@ -35,28 +35,28 @@ const testimonials = [
       "The team worked closely with us to bring our concept to life in a beautifully designed, user-friendly app” ",
     name: "Oluwafemi Niyi",
     position: "Founder - Femi Love Yourself",
-    img: "/assets/images/user-2.png",
+    img: "https://res.cloudinary.com/devsolute-technologies/image/upload/v1706280509/Elan%20haus/user-2_iud0cp.png",
   },
   {
     review:
       "The Elan Haus team not only helped us build an amazing digital platform to connect alumni communities, but also provided invaluable advice on product growth.",
     name: "Akintoye Olorode",
     position: "CTO, AlumniHub",
-    img: "/assets/images/user-1.png",
+    img: "https://res.cloudinary.com/devsolute-technologies/image/upload/v1706280509/Elan%20haus/user-1_i9hflk.png",
   },
   {
     review:
       "As founders we had limited technical experience. The team provided critical guidance on everything from product design to go-to-market strategy, allowing us to launch and scale our online learning startup.",
     name: "Lanre Oke",
     position: "CEO, TeleSchool",
-    img: "/assets/images/user-3.png",
+    img: "https://res.cloudinary.com/devsolute-technologies/image/upload/v1706280491/Elan%20haus/user-3_k1pqeq.png",
   },
   {
     review:
       "Despite having a small budget, they worked diligently to create a beautiful landing page for our business. They kept our needs front and center and delivered beyond our expectations",
     name: "Emmanuel",
     position: "Principal Partner, Pro Ecce",
-    img: "/assets/images/user-4.png",
+    img: "https://res.cloudinary.com/devsolute-technologies/image/upload/v1706280491/Elan%20haus/user-4_hisxjz.png",
   },
 ];
 
@@ -254,7 +254,10 @@ const Home: React.FC<Props> = () => {
 
           <div className="mt-60">
             <div className="img-container img-container--3">
-              <img src="assets/images/project-3.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707736423/Elan%20haus/project-3_fqox5z.png"
+                alt=""
+              />
             </div>
 
             <Typography as="h6" className="h-6 mt-30">
@@ -271,7 +274,10 @@ const Home: React.FC<Props> = () => {
         <Container className="container__services">
           <ServicesContainer>
             <div className="img-container">
-              <img src="/assets/images/services-woman.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707736709/Elan%20haus/services-woman_fc5ptq.png"
+                alt=""
+              />
             </div>
             <div className="right">
               <Typography as="p" className="p-6" text="Our services" />
