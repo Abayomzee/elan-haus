@@ -71,7 +71,10 @@ const Services: React.FC<Props> = () => {
               </Typography>
             </div>
             <div className="img-1-holder">
-              <img src="/assets/images/service-img-1.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707819719/Elan%20haus/serviceee-min_blmejk.png"
+                alt=""
+              />
             </div>
             <div className="service-list">
               <Typography as="p" className="p-21 description__left">
@@ -144,10 +147,16 @@ const Services: React.FC<Props> = () => {
 
             <div className="tools">
               <div className="tools-img">
-                <img src="/assets/images/tools.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707819937/Elan%20haus/tools_f1ljwi.png"
+                  alt=""
+                />
               </div>
               <div className="tools-man-img">
-                <img src="/assets/images/tools-man.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707819848/Elan%20haus/tools-man-min_y7nnp7.png"
+                  alt=""
+                />
               </div>
             </div>
           </ServiceContent>
