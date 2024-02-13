@@ -110,10 +110,16 @@ const About: React.FC<Props> = () => {
               </Typography>
             </div>
             <div className="img">
-              <img src="/assets/images/work-client-1.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706254976/Elan%20haus/work-client-1_igjhuj.png"
+                alt=""
+              />
             </div>
             <div className="img">
-              <img src="/assets/images/work-client-2.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707817166/Elan%20haus/work-client-2_fv6noi.png"
+                alt=""
+              />
             </div>
             <div className="texts">
               <WorksIcon />
@@ -137,10 +143,16 @@ const About: React.FC<Props> = () => {
               </Typography>
             </div>
             <div className="img">
-              <img src="/assets/images/work-client-3.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707817169/Elan%20haus/work-client-3_fful1j.png"
+                alt=""
+              />
             </div>
             <div className="img">
-              <img src="/assets/images/work-client-4.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707817165/Elan%20haus/work-client-4_gryqvj.png"
+                alt=""
+              />
             </div>
             <div className="texts">
               <WorksIcon />
@@ -161,7 +173,10 @@ const About: React.FC<Props> = () => {
           <div className="left">
             <Typography as="h4" className="h-17 mb-60" text="Our Services" />
             <div className="left__img">
-              <img src="/assets/images/what-we-do-img-2.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706280508/Elan%20haus/what-we-do-img-2_hedzcq.png"
+                alt=""
+              />
             </div>
           </div>
           <div className="right">
@@ -213,7 +228,10 @@ const About: React.FC<Props> = () => {
 
       <Section className="section__collaborate">
         <ContainerBig>
-          <img src="/assets/images/collaborate-bg.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707818059/Elan%20haus/collaborate-bg-min_ve4b40.png"
+            alt=""
+          />
         </ContainerBig>
       </Section>
 

@@ -87,13 +87,22 @@ const Services: React.FC<Props> = () => {
 
             <div className="img-2-holders">
               <div className="img-holder">
-                <img src="/assets/images/servic-1.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707818175/Elan%20haus/servic-1_ouj9ie.png"
+                  alt=""
+                />
               </div>
               <div className="img-holder">
-                <img src="/assets/images/servic-2.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707818139/Elan%20haus/servic-2_wwf82q.png"
+                  alt=""
+                />
               </div>
               <div className="img-holder">
-                <img src="/assets/images/servic-3.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707818221/Elan%20haus/servic-3_eekqbs.png"
+                  alt=""
+                />
               </div>
             </div>
             <div className="service-list">
@@ -264,7 +273,10 @@ const Services: React.FC<Props> = () => {
 
       <Section className="section__collaborate">
         <ContainerBig className="collabo">
-          <img src="/assets/images/collaborate-bg.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707818059/Elan%20haus/collaborate-bg-min_ve4b40.png"
+            alt=""
+          />
         </ContainerBig>
       </Section>
       <Footer />
