@@ -120,18 +120,27 @@ const WorkLahdaa: React.FC<Props> = () => {
         <Container className="container__photo-grid">
           <PhotoGridBox>
             <img
-              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1705965271/Elan%20haus/lahdaa-grid-1_smgyyw.png"
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707821067/Elan%20haus/lahdaa-grid-1-min_m44zyp.png"
               alt=""
             />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/lahdaa-grid-2.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707821073/Elan%20haus/lahdaa-grid-2-min_otie19.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/lahdaa-grid-3.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707821074/Elan%20haus/lahdaa-grid-3-min_sippus.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/lahdaa-grid-4.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707821029/Elan%20haus/lahdaa-grid-4-min_pnwtwe.png"
+              alt=""
+            />
           </PhotoGridBox>
         </Container>
       </Section>
