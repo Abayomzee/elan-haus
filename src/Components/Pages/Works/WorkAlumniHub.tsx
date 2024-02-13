@@ -155,7 +155,10 @@ const WorkAlumniHub: React.FC<Props> = () => {
 
       <Section className="section__above-footer">
         <ContainerBig>
-          <img src="/assets/images/alumni-footer-top-image.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707865860/Elan%20haus/alummm-foo-min_vwvtng.png"
+            alt=""
+          />
         </ContainerBig>
       </Section>
 

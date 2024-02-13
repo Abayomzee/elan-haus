@@ -93,7 +93,10 @@ const WorkFudtraka: React.FC<Props> = () => {
 
       <Section className="section__top-image">
         <Container className="container__top-image">
-          <img src="/assets/images/work-fudtraka-big.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706255101/Elan%20haus/work-fudtraka-big_rdvg0e.png"
+            alt=""
+          />
         </Container>
       </Section>
 
@@ -116,16 +119,28 @@ const WorkFudtraka: React.FC<Props> = () => {
       <Section>
         <Container className="container__photo-grid">
           <PhotoGridBox>
-            <img src="/assets/images/fudtraka-grid-1.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1705964927/Elan%20haus/fudtraka-grid-1_zs50yg.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/fudtraka-grid-2.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1705943057/Elan%20haus/fudtraka-grid-2_sk549y.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/fudtraka-grid-4.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707866449/Elan%20haus/fudtraka-grid-4_jhkiv8.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/fidtraka-grid-3.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1705964725/Elan%20haus/fidtraka-grid-3_u7trnr.png"
+              alt=""
+            />
           </PhotoGridBox>
         </Container>
       </Section>
