@@ -90,7 +90,10 @@ const WorkAlumniHub: React.FC<Props> = () => {
 
       <Section className="section__top-image">
         <Container className="container__top-image">
-          <img src="/assets/images/work-alumni-big.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706280513/Elan%20haus/work-alumni-big_a0eej4.png"
+            alt=""
+          />
         </Container>
       </Section>
 
@@ -111,16 +114,28 @@ const WorkAlumniHub: React.FC<Props> = () => {
       <Section>
         <Container className="container__photo-grid">
           <PhotoGridBox>
-            <img src="/assets/images/alumni-grid-1.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707865680/Elan%20haus/alum-1_yzdsfp.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/alumni-grid-2.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707865520/Elan%20haus/alumni-grid-2-min_hyi4h4.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/alumni-grid-3.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707865513/Elan%20haus/alumni-grid-3-min_fjbpiq.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/alumni-grid-4.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707865713/Elan%20haus/alumni-2_sa5yb8.png"
+              alt=""
+            />
           </PhotoGridBox>
         </Container>
       </Section>

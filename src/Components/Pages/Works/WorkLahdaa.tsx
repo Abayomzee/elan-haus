@@ -162,7 +162,10 @@ const WorkLahdaa: React.FC<Props> = () => {
 
       <Section className="section__above-footer">
         <ContainerBig>
-          <img src="/assets/images/lahdaa-footer-top-image.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707862249/Elan%20haus/lah-foo-min_jn08m5.png"
+            alt=""
+          />
         </ContainerBig>
       </Section>
 
