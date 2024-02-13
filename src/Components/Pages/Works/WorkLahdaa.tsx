@@ -94,7 +94,10 @@ const WorkLahdaa: React.FC<Props> = () => {
 
       <Section className="section__top-image">
         <Container className="container__top-image">
-          <img src="/assets/images/work-lahdaa-big.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706255271/Elan%20haus/work-lahdaa-big_el7bco.png"
+            alt=""
+          />
         </Container>
       </Section>
 
@@ -116,7 +119,10 @@ const WorkLahdaa: React.FC<Props> = () => {
       <Section>
         <Container className="container__photo-grid">
           <PhotoGridBox>
-            <img src="/assets/images/lahdaa-grid-1.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1705965271/Elan%20haus/lahdaa-grid-1_smgyyw.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
             <img src="/assets/images/lahdaa-grid-2.png" alt="" />

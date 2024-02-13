@@ -175,7 +175,10 @@ const Services: React.FC<Props> = () => {
               Our Approach is collaborative
             </Typography>
           </Marquee>
-          <img src="/assets/images/approach.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707819977/Elan%20haus/approach_klw83t.png"
+            alt=""
+          />
         </ContainerBig>
       </Section>
 
@@ -203,7 +206,10 @@ const Services: React.FC<Props> = () => {
             </div>
 
             <div className="strategy-img-holder">
-              <img src="/assets/images/strategy.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707820360/Elan%20haus/stragggg-min_idw8xt.png"
+                alt=""
+              />
             </div>
 
             <Strategies>
