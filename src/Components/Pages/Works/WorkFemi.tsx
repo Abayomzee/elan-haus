@@ -99,7 +99,10 @@ const WorkFemi: React.FC<Props> = () => {
 
       <Section className="section__top-image">
         <Container className="container__top-image">
-          <img src="/assets/images/work-femi-big.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706255173/Elan%20haus/work-femi-big_imkoet.png"
+            alt=""
+          />
         </Container>
       </Section>
 
@@ -120,16 +123,28 @@ const WorkFemi: React.FC<Props> = () => {
       <Section>
         <Container className="container__photo-grid">
           <PhotoGridBox>
-            <img src="/assets/images/femi-grid-1.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707867798/Elan%20haus/gtyyy-min_gzae48.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/femi-grid-2.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1705942726/Elan%20haus/femi-grid-2_mokmsi.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/femi-grid-3.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707867792/Elan%20haus/fmgrrrr-min_kkklpk.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/femi-grid-4.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1705942657/Elan%20haus/femi-grid-4_un2cot.png"
+              alt=""
+            />
           </PhotoGridBox>
         </Container>
       </Section>
@@ -147,7 +162,10 @@ const WorkFemi: React.FC<Props> = () => {
 
       <Section className="section__above-footer">
         <ContainerBig className="femi">
-          <img src="/assets/images/femi-footer-top-image.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1705943035/Elan%20haus/femi-footer-top-image_flcs7a.png"
+            alt=""
+          />
         </ContainerBig>
       </Section>
 

@@ -85,7 +85,10 @@ const WorkTeleSchool: React.FC<Props> = () => {
 
       <Section className="section__top-image">
         <Container className="container__top-image">
-          <img src="/assets/images/work-teleschool-big.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1706255293/Elan%20haus/work-teleschool-big_fcfxkh.png"
+            alt=""
+          />
         </Container>
       </Section>
 
@@ -106,16 +109,28 @@ const WorkTeleSchool: React.FC<Props> = () => {
       <Section>
         <Container className="container__photo-grid">
           <PhotoGridBox>
-            <img src="/assets/images/teleschool-grid-1.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707868310/Elan%20haus/teleee-min_jrdrzf.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/teleschool-grid-2.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707868311/Elan%20haus/tele-2-min_s73lza.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/teleschool-grid-3.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707868312/Elan%20haus/tele-3-min_hixbn4.png"
+              alt=""
+            />
           </PhotoGridBox>
           <PhotoGridBox>
-            <img src="/assets/images/teleschool-grid-4.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707868312/Elan%20haus/tele-4-min_y2s34p.png"
+              alt=""
+            />
           </PhotoGridBox>
         </Container>
       </Section>
@@ -136,7 +151,10 @@ const WorkTeleSchool: React.FC<Props> = () => {
 
       <Section className="section__above-footer">
         <ContainerBig>
-          <img src="/assets/images/teleschool-footer-top-image.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707868316/Elan%20haus/tele-bb-min_iewzi0.png"
+            alt=""
+          />
         </ContainerBig>
       </Section>
 

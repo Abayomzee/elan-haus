@@ -163,7 +163,10 @@ const WorkFudtraka: React.FC<Props> = () => {
 
       <Section className="section__above-footer">
         <ContainerBig>
-          <img src="/assets/images/fudtraka-footer-top-image.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/devsolute-technologies/image/upload/v1707867384/Elan%20haus/fttt-min_t8qamg.png"
+            alt=""
+          />
         </ContainerBig>
       </Section>
 
